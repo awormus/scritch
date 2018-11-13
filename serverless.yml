@@ -115,3 +115,4 @@ functions:
           authorizer: aws_iam
 resources:
   - ${file(resources/dynamodb-table.yml)}
+  - ${file(resources/s3-bucket.yml)}
